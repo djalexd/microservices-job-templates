@@ -1,11 +1,11 @@
 def microservices = '''
 microservices {
-  sensor-config {
+  sensor_config {
     url = 'https://github.com/djalexd/microservices-masterpom.git'
     branch = 'master'
     module = 'sensor-config'
   }
-  sensor-alerts {
+  sensor_alerts {
     url = 'https://github.com/djalexd/microservices-masterpom.git'
     branch = 'master'
     module = 'sensor-alerts'
