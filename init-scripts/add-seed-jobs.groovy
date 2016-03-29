@@ -4,6 +4,7 @@
  */
 
 import jenkins.model.*
+import hudson.model.*
 import javaposse.jobdsl.dsl.DslScriptLoader
 import javaposse.jobdsl.plugin.JenkinsJobManagement
 
