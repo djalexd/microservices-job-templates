@@ -3,7 +3,7 @@
  * http://stackoverflow.com/a/28176509/863412
  */
 
-
+import jenkins.model.*
 import javaposse.jobdsl.dsl.DslScriptLoader
 import javaposse.jobdsl.plugin.JenkinsJobManagement
 
