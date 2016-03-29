@@ -39,12 +39,16 @@ def createBuildJob(name,data) {
     }
   
     triggers {
-       scm('H/15 * * * *')
+      scm('H/15 * * * *')
     }
 
     steps {
       maven {
-        goals('clean install')
+        if (data.module) {
+          goals('-pl ' + data.module + ' clean install')
+        } else {
+          goals('clean install')
+        }
       }
     }
 
